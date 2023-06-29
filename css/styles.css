@@ -1,10 +1,12 @@
 :root {
     --accent-color: #2E2F42;
     --item-color: #4D5AE5;
+    --hero-color: #fff;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455;
 }
 
 .visually-hidden {
@@ -63,7 +65,7 @@ letter-spacing: 0.02em;
     background-color: var(--accent-color);
 }
 .hero-title {
-    color: #FFF;
+    color: var(--hero-color);
 text-align: center;
 font-size: 56px;
 font-weight: 700;
@@ -71,7 +73,7 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 }
 .hero-btn {
-    color: #FFF;
+    color: var(--hero-color);
 font-size: 16px;
 font-family: inherit;
 font-weight: 500;
@@ -83,7 +85,7 @@ letter-spacing: 0.04em;
 /*----------Advantages---------*/
 
 .advantages {
-    background-color: #FFF;
+    background-color: var(--hero-color);
 }
 .advantages-list {
 }
@@ -152,6 +154,48 @@ text-transform: uppercase;
 
 .footer-down {
     color: #F4F4FD;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/*----------Portfolio---------*/
+
+.head-list-item {
+    color: var(--item-color);
+text-align: center;
+font-size: 16px;
+font-family: inherit;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+background-color: #F4F4FD;
+cursor: pointer;
+}
+.head-item {
+    color: var(--hero-color);
+    text-align: center;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #404BBF;
+    cursor: pointer;
+}
+.head-content-list {
+}
+.menu {
+}
+.portfolio-content {
+    color: var(--accent-color);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.portfolio-item {
+    color: #434455;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
