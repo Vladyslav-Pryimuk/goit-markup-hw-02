@@ -80,7 +80,7 @@ letter-spacing: 0.02em;
 font-size: 16px;
 font-family: inherit;
 font-weight: 500;
-background-color: var(--item-color);
+background-color: #4D5AE5;
 line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
@@ -172,7 +172,8 @@ letter-spacing: 0.02em;
 
 /*----------Portfolio---------*/
 
-.head-list-item {
+.head-list-item:hover,
+.head-list-item:focus {
     color: var(--item-color);
 text-align: center;
 font-size: 16px;
@@ -183,7 +184,8 @@ letter-spacing: 0.04em;
 background-color: #F4F4FD;
 cursor: pointer;
 }
-.head-item {
+.head-item:hover,
+.head-item:focus {
     color: #4d5ae5;
     text-align: center;
     font-size: 16px;
@@ -210,4 +212,14 @@ letter-spacing: 0.02em;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+}
+
+.footer-second-logo {
+    color: #F4F4FD;
+font-size: 18px;
+font-family: Raleway;
+font-weight: 800;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 }
