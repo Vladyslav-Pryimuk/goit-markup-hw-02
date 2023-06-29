@@ -1,13 +1,13 @@
 :root {
     --accent-color: #2E2F42;
     --item-color: #4D5AE5;
-    --hero-color: #fff;
+    --hero-color: #FFFFFF;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color: #fff;
+    background-color: var(--hero-color);
 }
 
 .visually-hidden {
