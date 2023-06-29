@@ -7,6 +7,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
+    background-color: #fff;
 }
 
 .visually-hidden {
@@ -57,6 +58,7 @@ letter-spacing: 0.02em;
 .header-list-link:hover ,
 .header-list-link:focus {
     color: var(--item-color);
+    background-color: #404BBF;
 }
 
 /*----------HERO---------*/
@@ -80,6 +82,7 @@ font-weight: 500;
 background-color: var(--item-color);
 line-height: 1.5;
 letter-spacing: 0.04em;
+cursor: pointer;
 }
 
 /*----------Advantages---------*/
@@ -113,6 +116,12 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+}
+
+.webcontent-list {
+    display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
 }
 
 /*----------Team---------*/
