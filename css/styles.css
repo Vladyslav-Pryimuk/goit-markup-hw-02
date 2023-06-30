@@ -30,21 +30,18 @@ letter-spacing: 0.02em;
 }
 
 .header-logo {
-    color: var(--accent-color);
+    color: var(--item-color);
 font-size: 18px;
 font-weight: 800;
+font-family: "Raleway", sans-serif;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 
 .header-logo-accent {
-    color: var(--item-color);
-    font-family: "Raleway", sans-serif;
-}
-
-.header-logo-item {
     color: var(--accent-color);
+    font-family: "Raleway", sans-serif;
 }
 
 .header-list-link {
