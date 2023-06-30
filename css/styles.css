@@ -20,6 +20,15 @@ body {
 
 /*----------HEADER---------*/
 
+.header-socials-link:hover,
+.header-socials-link:focus {
+    color: #404bbf;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
 .header-logo {
     color: var(--accent-color);
 font-size: 18px;
@@ -48,8 +57,11 @@ letter-spacing: 0.02em;
 
 .header-list-link:hover ,
 .header-list-link:focus {
-    color: var(--item-color);
-    background-color: #404BBF;
+    color: #404bbf;
+}
+
+.address-list-socials {
+    font-style: normal;
 }
 
 /*----------HERO---------*/
