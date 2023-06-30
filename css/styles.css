@@ -14,7 +14,7 @@ body {
     text-decoration: none;
 }
 
-.menu {
+.list {
     list-style: none;
 }
 
@@ -32,6 +32,10 @@ text-transform: uppercase;
 .header-logo-accent {
     color: var(--item-color);
     font-family: "Raleway", sans-serif;
+}
+
+.header-logo-item {
+    color: var(--accent-color);
 }
 
 .header-list-link {
