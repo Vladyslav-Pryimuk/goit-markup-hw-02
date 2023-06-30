@@ -80,11 +80,19 @@ letter-spacing: 0.02em;
 font-size: 16px;
 font-family: inherit;
 font-weight: 500;
-background-color: #4D5AE5;
 line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
 background-color: #404BBF;
+}
+
+.list-img {
+    border: 1px solid  #E7E9FC;
+background: lightgray -72.845px -19px / 144.444% 112.667% no-repeat;
+}
+
+.list-team {
+    background: lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
 }
 
 /*----------Advantages---------*/
@@ -120,18 +128,12 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 
-.webcontent-list {
-    display: inline-flex;
-flex-direction: column;
-align-items: flex-start;
-}
-
 /*----------Team---------*/
 
-.team-list {
+.team {
+    background-color:  #F4F4FD;
 }
-.menu {
-}
+
 .team-list-item {
     color: var(--accent-color);
 text-align: center;
@@ -222,4 +224,8 @@ font-weight: 800;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+}
+
+.portfolio-img {
+ background: -25.026px 0px / 125% 100% no-repeat;
 }
