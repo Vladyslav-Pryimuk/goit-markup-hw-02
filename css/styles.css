@@ -31,7 +31,7 @@ text-transform: uppercase;
 
 .header-logo-accent {
     color: var(--item-color);
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
 }
 
 .header-list-link {
