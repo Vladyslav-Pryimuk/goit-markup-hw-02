@@ -73,24 +73,12 @@ cursor: pointer;
 background-color: #404BBF;
 }
 
-.list-img {
-    border: 1px solid  #E7E9FC;
-background: lightgray -72.845px -19px / 144.444% 112.667% no-repeat;
-}
-
-.list-team {
-    background: lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
-}
-
 /*----------Advantages---------*/
 
 .advantages {
     background-color: var(--hero-color);
 }
-.advantages-list {
-}
-.advantages-item {
-}
+
 .advantages-subtitle {
     color: var(--accent-color);
 font-size: 20px;
