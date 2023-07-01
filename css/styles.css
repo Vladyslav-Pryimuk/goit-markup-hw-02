@@ -47,7 +47,7 @@ letter-spacing: 0.02em;
 
 .header-list-link:hover ,
 .header-list-link:focus {
-    color: var(--target-color);
+    color: #404bbf;
 }
 
 .address-list-socials {
