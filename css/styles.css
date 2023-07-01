@@ -86,9 +86,9 @@ cursor: pointer;
 background-color: var(--item-color);
 }
 
-.hero-btv:focus,
-.hero-btv:hover {
-    background-color: #404BBF;
+.hero-btv:hover,
+.hero-btv:focus {
+    background-color:#404bbf;
 }
 /*----------Advantages---------*/
 
