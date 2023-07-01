@@ -206,34 +206,38 @@ cursor: pointer;
     background-color: var(--background-color);
     cursor: pointer;
 }
-.head-content-list {
-}
-.menu {
-}
-.portfolio-content {
-    color: var(--accent-color);
-font-size: 20px;
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
-}
+
 .portfolio-item {
-    color: #434455;
+    color: var(--item-color);
+text-align: center;
 font-size: 16px;
+font-family: inherit;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+}
+
+.portfolio-item:hover,
+.portfolio-item:focus {
+    color: #FFF;
+    background-color: var(--target-color);
+}
+
+.projects-item {
+    background-color: #FFF;
+}
+.content-logo {
+    color: var(--accent-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.logo-info {
+    color: var(--address-color);
+font-size: 16px;
+font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
-}
-
-.footer-second-logo {
-    color: var(--background-color);
-font-size: 18px;
-font-family: Raleway;
-font-weight: 800;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-}
-
-.portfolio-img {
- background: -25.026px 0px / 125% 100% no-repeat;
 }
