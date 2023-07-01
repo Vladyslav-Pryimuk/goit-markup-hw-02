@@ -57,7 +57,6 @@ letter-spacing: 0.02em;
 .header-socials-link {
     color: var(--address-color);
 font-size: 16px;
-font-style: normal;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -92,10 +91,11 @@ cursor: pointer;
 background-color: var(--item-color);
 }
 
-.hero-btv:hover,
-.hero-btv:focus {
+.hero-btn:hover,
+.hero-btn:focus {
     background-color: var(--target-color);
 }
+
 /*----------Advantages---------*/
 
 .advantages {
