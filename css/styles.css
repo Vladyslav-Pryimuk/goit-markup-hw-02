@@ -55,7 +55,7 @@ letter-spacing: 0.02em;
 }
 
 .header-socials-link {
-    color: #404bbf;
+    color: var(--address-color);
 font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
@@ -133,7 +133,7 @@ text-transform: capitalize;
 }
 
 .list-team-info {
-    background-color: var(--hero-color);
+    background-color: #FFFFFF;
 }
 
 .team-list-item {
