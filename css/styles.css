@@ -4,7 +4,7 @@
     --hero-color: #FFFFFF;
     --background-color: #F4F4FD;
     --address-color: #434455;
-    --target-color: #404bbf;
+    --target-color: #404BBF;
 }
 
 body {
@@ -64,7 +64,7 @@ letter-spacing: 0.02em;
 
 .header-socials-link:hover,
 .header-socials-link:focus {
-    background-color: var(--target-color);
+    background-color:#404bbf;
 }
 
 /*----------HERO---------*/
