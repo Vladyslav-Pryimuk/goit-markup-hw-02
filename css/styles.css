@@ -64,7 +64,7 @@ letter-spacing: 0.02em;
 
 .header-socials-link:hover,
 .header-socials-link:focus {
-    background-color:#404bbf;
+    color:#404bbf;
 }
 
 /*----------HERO---------*/
