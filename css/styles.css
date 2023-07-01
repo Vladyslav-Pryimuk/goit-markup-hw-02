@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Roboto', "Raleway" sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: var(--hero-color);
 }
@@ -85,7 +85,7 @@ font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
 }
-.hero-btn:hover {
+.hero-btn {
     color: var(--hero-color);
 font-size: 16px;
 font-family: inherit;
@@ -96,7 +96,8 @@ cursor: pointer;
 background-color: var(--item-color);
 }
 
-.hero-btv:focus {
+.hero-btv:focus,
+.hero-btv:hover {
     background-color: #404BBF;
 }
 /*----------Advantages---------*/
