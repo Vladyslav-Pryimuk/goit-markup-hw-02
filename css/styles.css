@@ -219,7 +219,7 @@ body {
 
 .portfolio-item:hover,
 .portfolio-item:focus {
-  color: #fff;
+  color: var(--hero-color);
   background-color: var(--target-color);
 }
 
