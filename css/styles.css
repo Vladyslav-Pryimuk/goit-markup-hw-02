@@ -215,12 +215,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  background-color: #F4F4FD;
 }
 
 .portfolio-item:hover,
 .portfolio-item:focus {
-  color: var(--hero-color);
-  background-color: var(--target-color);
+  color: #FFFFFF;
+  background-color: #404BBF;
 }
 
 .projects-item {
