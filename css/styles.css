@@ -2,7 +2,7 @@
   --accent-color: #2e2f42;
   --item-color: #4d5ae5;
   --hero-color: #ffffff;
-  --background-color: #f4f4fd;
+  --background-color: #F4F4FD;
   --address-color: #434455;
   --target-color: #404bbf;
 }
@@ -215,11 +215,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  background-color: #F4F4FD;
+  background-color: var(--background-color);
 }
 
-.portfolio-item:hover,
-.portfolio-item:focus {
+.portfolio-item-link:hover,
+.portfolio-item-link:focus {
   color: #FFFFFF;
   background-color: #404BBF;
 }
